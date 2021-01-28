@@ -9,12 +9,14 @@ public class Test : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-		tiempo = 0;
+		tiempo = 1000;
     }
 
     // Update is called once per frame
     void Update()
     {
 		tiempo += Time.deltaTime;
+
+		Debug.Log("Tiempo: " + tiempo);
     }
 }
