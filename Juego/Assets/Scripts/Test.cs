@@ -16,7 +16,7 @@ public class Test : MonoBehaviour
     void Update()
     {
 		tiempo += Time.deltaTime;
-
-		Debug.Log("Tiempo: " + tiempo);
+		
+		Debug.Log("El tiempo transcurrido es: " + tiempo);
     }
 }
